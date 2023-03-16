@@ -5,6 +5,6 @@ resources:
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
-- digest: sha256:878df19690bd99e97055e278569fa8fc831f6d060a736dab8a357f032741f648
+- digest: sha256:597570d69f96e14ece80c08a0691ae1977c0a8b0e7fab69e07f1eeb8d66b6b40
   name: quay.io/praveenrachamreddy/ci-pipeline
   newName: quay.io/praveenrachamreddy/ci-pipeline:1.1-SNAPSHOT-dev
