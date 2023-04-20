@@ -6,7 +6,7 @@ metadata:
   name: webapp
 spec:
   port:
-    targetPort: http
+    targetPort: tcp
   to:
     kind: Service
     name: webapp
