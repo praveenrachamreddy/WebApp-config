@@ -1,2 +1,8 @@
-bases:
-  - ../../app/
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ../../app/
+images:
+- digest: sha256:ba55791298fbffbb353d10e12ee05fc37a17818b86e03dd754d7735eaa62c222
+  name: quay.io/praveenrachamreddy/ci-pipeline1:1.0-DEV
+  newName: quay.io/praveenrachamreddy/ci-pipeline1:1.0-STAGE
