@@ -6,6 +6,6 @@ images:
 - digest: sha256:f3fcfc5b3660ad3e851ca490b6710774f20c6926c02213def55765c958f99216
   name: quay.io/praveenrachamreddy/ci-pipeline
   newName: quay.io/praveenrachamreddy/ci-pipeline
-- digest: sha256:e63d8c9f51248ce44cd02c9ae88bbe425c43f29acf4d58b6a3817ac7c998d97f
+- digest: sha256:1c20e65b8c940fb242476d180c65b3b09bb6724c68b9ce8ea4cab91725096753
   name: quay.io/praveenrachamreddy/ci-pipeline1:1.0--DEV
   newName: quay.io/praveenrachamreddy/ci-pipeline1:1.0-DEV
