@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../app/
 images:
-- digest: sha256:56f44c29a917c9190ea600e92163fa2b731d9bc92a230dfb60763a208347af14
+- digest: sha256:4a4e40a86fdac103b44bfd3878e7434aecd8dcb0c36a54c6aef769caf91de48d
   name: quay.io/praveenrachamreddy/ci-pipeline1:1.0-DEV
   newName: quay.io/praveenrachamreddy/ci-pipeline1:1.0-STAGE
