@@ -19,7 +19,7 @@ spec:
         sidecar.istio.io/inject: 'true'
     spec:
       containers:
-        - image: quay.io/praveenrachamreddy/ci-pipeline:1.1-SNAPSHOT-dev
+        - image: 
           imagePullPolicy: Always
           name: webapp
           ports:
